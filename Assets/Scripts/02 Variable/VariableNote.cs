@@ -1,6 +1,7 @@
 using UnityEngine;
 
 // 변수 (Variable) : 프로그램에서 사용할 데이터를 저장할 수 있는 공간, 혹은 그릇
+// 변수 선언 : 데이터 타입 + 변수 이름
 
 public class VariableNote : MonoBehaviour
 {
