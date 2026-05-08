@@ -16,6 +16,9 @@ public class FunctionPractice : MonoBehaviour
         return a - b;
     }
 
+    // 화살표 함수
+    int substract(int a, int b) => a - b;
+
     int X(int a, int b)
     {
         return a * b;
@@ -23,11 +26,23 @@ public class FunctionPractice : MonoBehaviour
 
     int Slice(int a, int b)
     {
+        // 방어코드
+        if (b == 0)
+        {
+            return 0;
+        }
+        
         return a / b;
     }
 
     int trash(int a, int b)
     {
+        // 방어코드
+        if (b == 0)
+        {
+            return 0;
+        }
+
         return a % b;
     }
 
