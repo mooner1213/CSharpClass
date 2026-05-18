@@ -2222,6 +2222,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89e67c606ddeefc448c21d5501bfec1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClassArray
+--- !u!1 &1373912335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373912337}
+  - component: {fileID: 1373912336}
+  - component: {fileID: 1373912338}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1373912336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373912335}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf56193ec6a1364c9f9397c9d941505, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PropertyDemo
+--- !u!4 &1373912337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373912335}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.54313, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1373912338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373912335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ef241d3ce74ca4d9e97d5d01ae2886, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Indexer.IndexerDemo
 --- !u!1 &1391759418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,6 +2296,8 @@ GameObject:
   - component: {fileID: 1391759425}
   - component: {fileID: 1391759427}
   - component: {fileID: 1391759426}
+  - component: {fileID: 1391759428}
+  - component: {fileID: 1391759429}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -2371,7 +2430,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391759418}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 145ef2cfd47a4944196b4d468c6be82f, type: 3}
   m_Name: 
@@ -2383,7 +2442,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391759418}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5dbc90961482bd245be86c2d04ed7f25, type: 3}
   m_Name: 
@@ -2395,11 +2454,35 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391759418}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71619d9ba42d80247853ad8a187e5dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Method.ParameterOut
+--- !u!114 &1391759428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391759418}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478c02394bff23c44a9537dc839853e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Method.MethodExpression
+--- !u!114 &1391759429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391759418}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fe7f8eb89ea7444bbad5c5d5fde552, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Method.ParameterNote
 --- !u!1 &1549026975
 GameObject:
   m_ObjectHideFlags: 0
@@ -2739,3 +2822,4 @@ SceneRoots:
   - {fileID: 279518580}
   - {fileID: 1288765150}
   - {fileID: 1391759423}
+  - {fileID: 1373912337}
