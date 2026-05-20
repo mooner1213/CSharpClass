@@ -18,8 +18,16 @@ namespace Abstract
             }*/
 
             //Person클래스의 인스턴스 생성
-            Person person = new Person();
-            person.SayTalk();
+            //Person person = new Person();
+            //person.SayTalk();
+
+            // 사각형, 원 면적 구하기
+
+            Squre squre = new Squre(10);
+            Debug.Log($"사각형의 면적은 {squre.GetArea()}");
+
+            Circle ra = new Circle(10);
+            Debug.Log($"원의 면적은 {ra.GetArea()}");
 
         }
     }
